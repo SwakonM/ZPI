@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #2f3336;
+    color: aqua;
+    font-family: 'Opem Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #c0d06f;
+    margin: 20px;
+}
+
+.products {
+    text-align: center;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+}
+
+.products p {
+    margin-bottom: 30px;
+}
+
+.products figcaption {
+    margin-top: 8px;
+}
+
+
+/*
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+}
+*/
+
+.navbar {
+    min-height: 57px;
+}
+
+.right-box .singinwith {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.button.social {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.right-box {
+    position: absolute;
+    top: 100;
+    right: 400;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.facebook {
+    background: #32508e;
+}
+
+.twitter {
+    background: hsl(197, 100%, 50%);
+}
+
+.google {
+    background: #dd4b39;
+}

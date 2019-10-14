@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #2f3336;
+    color: aqua;
+    font-family: 'Opem Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #c0d06f;
+    margin: 20px;
+}
+
+.products {
+    text-align: center;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+}
+
+.products p {
+    margin-bottom: 30px;
+}
+
+.products figcaption {
+    margin-top: 8px;
+}
+
+
+/*
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+}
+*/
+
+.navbar {
+    min-height: 57px;
+}
